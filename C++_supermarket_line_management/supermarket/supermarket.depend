@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1381464676 source:c:\users\amanda\desktop\ufrn\edb\preprojeto\projeto.cpp
+	<stdio.h>
+	<iostream>
+	<limits.h>
+	<stdlib.h>
+	<fstream>
+	<vector>
+	<sstream>
+	"supermarket/Cachier.h"
+	"supermarket/Customer.h"
+	"supermarket/LinkedList.h"
+
+1381464676 et/LinkedList.h"
+
+1381862913 c:\users\amanda\desktop\ufrn\edb\preprojeto\supermarket\cachier.h
+	"LinkedList.h"
+	"Customer.h"
+	"Util.h"
+
+1381860469 
+
+1381855660 c:\users\amanda\desktop\ufrn\edb\preprojeto\supermarket\linkedlist.h
+
+1381855699 c:\users\amanda\desktop\ufrn\edb\preprojeto\supermarket\customer.h
+	"LinkedList.h"
+
+1381855699 t.h"
+
+1381864804 source:c:\users\amanda\desktop\ufrn\edb\preprojeto\supermarket\projeto.cpp
+	<stdio.h>
+	<iostream>
+	"Cachier.h"
+	"Customer.h"
+	"LinkedList.h"
+	"Util.h"
+
+1381860469 c:\users\amanda\desktop\ufrn\edb\preprojeto\supermarket\util.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<sstream>
+
+1381908660 source:/media/amandapriscilla/usbdisk-sdb1/supermarket/projeto.cpp
+	<stdio.h>
+	<iostream>
+	"Cachier.h"
+	"Customer.h"
+	"LinkedList.h"
+	"Util.h"
+
+1381907252 /media/amandapriscilla/usbdisk-sdb1/supermarket/Cachier.h
+	"LinkedList.h"
+	"Customer.h"
+	"Util.h"
+
+1381855662 /media/amandapriscilla/usbdisk-sdb1/supermarket/LinkedList.h
+
+1381855700 /media/amandapriscilla/usbdisk-sdb1/supermarket/Customer.h
+	"LinkedList.h"
+
+1381908284 /media/amandapriscilla/usbdisk-sdb1/supermarket/Util.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<sstream>
+

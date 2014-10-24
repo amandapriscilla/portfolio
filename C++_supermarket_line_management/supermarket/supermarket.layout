@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Cachier.h" open="1" top="0" tabpos="1">
+		<Cursor position="217" topLine="9" />
+	</File>
+	<File name="Customer.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="LinkedList.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Util.h" open="0" top="0" tabpos="1">
+		<Cursor position="1351" topLine="51" />
+	</File>
+	<File name="projeto.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="3795" topLine="114" />
+	</File>
+</CodeBlocks_layout_file>

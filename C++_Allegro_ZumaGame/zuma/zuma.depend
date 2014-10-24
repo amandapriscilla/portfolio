@@ -1,0 +1,190 @@
+# depslib dependency file v1.0
+1386119128 source:c:\users\amanda\desktop\zuma\bola.cpp
+	<iostream>
+	<cstdlib>
+	"Bola.h"
+
+1386119379 c:\users\amanda\desktop\zuma\bola.h
+	<allegro.h>
+	<list>
+	"Ponto.h"
+
+1384999640 c:\users\amanda\desktop\zuma\ponto.h
+
+1385835306 source:c:\users\amanda\desktop\zuma\caminho.cpp
+	"Caminho.h"
+	"Ponto.h"
+	<iostream>
+	<cstdio>
+
+1385834324 c:\users\amanda\desktop\zuma\caminho.h
+	"Ponto.h"
+	"Bola.h"
+	<list>
+
+1385956920 source:c:\users\amanda\desktop\zuma\canhao.cpp
+	"Canhao.h"
+	"Bola.h"
+	"Ponto.h"
+	"Fila.h"
+
+1385956678 c:\users\amanda\desktop\zuma\canhao.h
+	<allegro.h>
+	<iostream>
+	"Ponto.h"
+	"Bola.h"
+
+1386128644 c:\users\amanda\desktop\zuma\fila.h
+	<list>
+	"Bola.h"
+
+1385837204 source:c:\users\amanda\desktop\zuma\configallegro.cpp
+	<allegro.h>
+	"configAllegro.h"
+
+1384726364 c:\users\amanda\desktop\zuma\configallegro.h
+
+1386113150 source:c:\users\amanda\desktop\zuma\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<allegro.h>
+	"configAllegro.h"
+	"Caminho.h"
+	"Fila.h"
+	"Canhao.h"
+
+1386128898 source:c:\users\amanda\desktop\zuma\fila.cpp
+	"Fila.h"
+	"Caminho.h"
+	<cmath>
+	<algorithm>
+	<list>
+	<iostream>
+
+1386119130 source:c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\bola.cpp
+	<iostream>
+	<cstdlib>
+	"Bola.h"
+
+1386119380 c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\bola.h
+	<allegro.h>
+	<list>
+	"Ponto.h"
+
+1384999640 c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\ponto.h
+
+1385835306 source:c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\caminho.cpp
+	"Caminho.h"
+	"Ponto.h"
+	<iostream>
+	<cstdio>
+
+1385834324 c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\caminho.h
+	"Ponto.h"
+	"Bola.h"
+	<list>
+
+1385956920 source:c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\canhao.cpp
+	"Canhao.h"
+	"Bola.h"
+	"Ponto.h"
+	"Fila.h"
+
+1385956678 c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\canhao.h
+	<allegro.h>
+	<iostream>
+	"Ponto.h"
+	"Bola.h"
+
+1386149714 c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\fila.h
+	<list>
+	"Bola.h"
+
+1385837204 source:c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\configallegro.cpp
+	<allegro.h>
+	"configAllegro.h"
+
+1384726364 c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\configallegro.h
+
+1386150602 source:c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\fila.cpp
+	"Fila.h"
+	"Caminho.h"
+	<cmath>
+	<algorithm>
+	<list>
+	<iostream>
+
+1386129234 source:c:\users\amanda\desktop\funfando\zuma_juntafilas\zuma\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<allegro.h>
+	"configAllegro.h"
+	"Caminho.h"
+	"Fila.h"
+	"Canhao.h"
+
+1386119130 source:c:\users\amanda\desktop\funfando\zuma\bola.cpp
+	<iostream>
+	<cstdlib>
+	"Bola.h"
+
+1386119380 c:\users\amanda\desktop\funfando\zuma\bola.h
+	<allegro.h>
+	<list>
+	"Ponto.h"
+
+1384999640 c:\users\amanda\desktop\funfando\zuma\ponto.h
+
+1386154652 source:c:\users\amanda\desktop\funfando\zuma\caminho.cpp
+	"Caminho.h"
+	"Ponto.h"
+	<iostream>
+	<cstdio>
+
+1386153808 c:\users\amanda\desktop\funfando\zuma\caminho.h
+	"Ponto.h"
+	"Bola.h"
+	<list>
+
+1385956920 source:c:\users\amanda\desktop\funfando\zuma\canhao.cpp
+	"Canhao.h"
+	"Bola.h"
+	"Ponto.h"
+	"Fila.h"
+
+1385956678 c:\users\amanda\desktop\funfando\zuma\canhao.h
+	<allegro.h>
+	<iostream>
+	"Ponto.h"
+	"Bola.h"
+
+1386149714 c:\users\amanda\desktop\funfando\zuma\fila.h
+	<list>
+	"Bola.h"
+
+1385837204 source:c:\users\amanda\desktop\funfando\zuma\configallegro.cpp
+	<allegro.h>
+	"configAllegro.h"
+
+1384726364 c:\users\amanda\desktop\funfando\zuma\configallegro.h
+
+1386153480 source:c:\users\amanda\desktop\funfando\zuma\fila.cpp
+	"Fila.h"
+	"Caminho.h"
+	<cmath>
+	<algorithm>
+	<list>
+	<iostream>
+
+1386153634 source:c:\users\amanda\desktop\funfando\zuma\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<allegro.h>
+	"configAllegro.h"
+	"Caminho.h"
+	"Fila.h"
+	"Canhao.h"
+
