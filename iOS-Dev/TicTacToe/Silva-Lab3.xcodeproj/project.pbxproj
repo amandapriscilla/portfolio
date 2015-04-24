@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6825C10016D2E166000E8BF1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6825C0FF16D2E166000E8BF1 /* Default.png */; };
+		683378B316CD93AD00C94CB7 /* btnBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 683378B216CD93AD00C94CB7 /* btnBg.jpg */; };
+		683E1BAB16CB08B70072F195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683E1BAA16CB08B70072F195 /* UIKit.framework */; };
+		683E1BAD16CB08B70072F195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683E1BAC16CB08B70072F195 /* Foundation.framework */; };
+		683E1BAF16CB08B70072F195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683E1BAE16CB08B70072F195 /* CoreGraphics.framework */; };
+		683E1BB516CB08B70072F195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BB316CB08B70072F195 /* InfoPlist.strings */; };
+		683E1BB716CB08B70072F195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E1BB616CB08B70072F195 /* main.m */; };
+		683E1BBB16CB08B70072F195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E1BBA16CB08B70072F195 /* AppDelegate.m */; };
+		683E1BBD16CB08B70072F195 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BBC16CB08B70072F195 /* Default.png */; };
+		683E1BBF16CB08B70072F195 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BBE16CB08B70072F195 /* Default@2x.png */; };
+		683E1BC116CB08B70072F195 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BC016CB08B70072F195 /* Default-568h@2x.png */; };
+		683E1BC416CB08B70072F195 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BC216CB08B70072F195 /* MainStoryboard.storyboard */; };
+		683E1BC716CB08B70072F195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E1BC616CB08B70072F195 /* ViewController.m */; };
+		683E1BD716CB231E0072F195 /* o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BD616CB231E0072F195 /* o.jpg */; };
+		683E1BDB16CB25690072F195 /* x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BDA16CB25690072F195 /* x.jpg */; };
+		683E1BDF16CB286B0072F195 /* none.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 683E1BDE16CB286B0072F195 /* none.jpg */; };
+		68D3B31916D0A985009ED2DB /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B31816D0A985009ED2DB /* MyPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6825C0FF16D2E166000E8BF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		683378B216CD93AD00C94CB7 /* btnBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btnBg.jpg; sourceTree = "<group>"; };
+		683E1BA616CB08B70072F195 /* Silva-Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silva-Lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683E1BAA16CB08B70072F195 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		683E1BAC16CB08B70072F195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		683E1BAE16CB08B70072F195 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		683E1BB216CB08B70072F195 /* Silva-Lab3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Silva-Lab3-Info.plist"; sourceTree = "<group>"; };
+		683E1BB416CB08B70072F195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		683E1BB616CB08B70072F195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		683E1BB816CB08B70072F195 /* Silva-Lab3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Silva-Lab3-Prefix.pch"; sourceTree = "<group>"; };
+		683E1BB916CB08B70072F195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		683E1BBA16CB08B70072F195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		683E1BBC16CB08B70072F195 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		683E1BBE16CB08B70072F195 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		683E1BC016CB08B70072F195 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		683E1BC316CB08B70072F195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		683E1BC516CB08B70072F195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		683E1BC616CB08B70072F195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		683E1BD616CB231E0072F195 /* o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o.jpg; sourceTree = "<group>"; };
+		683E1BDA16CB25690072F195 /* x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = x.jpg; sourceTree = "<group>"; };
+		683E1BDE16CB286B0072F195 /* none.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = none.jpg; sourceTree = "<group>"; };
+		68D3B31716D0A954009ED2DB /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		68D3B31816D0A985009ED2DB /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683E1BA316CB08B70072F195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683E1BAB16CB08B70072F195 /* UIKit.framework in Frameworks */,
+				683E1BAD16CB08B70072F195 /* Foundation.framework in Frameworks */,
+				683E1BAF16CB08B70072F195 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683E1B9B16CB08B70072F195 = {
+			isa = PBXGroup;
+			children = (
+				6825C0FF16D2E166000E8BF1 /* Default.png */,
+				683E1BB016CB08B70072F195 /* Silva-Lab3 */,
+				683E1BA916CB08B70072F195 /* Frameworks */,
+				683E1BA716CB08B70072F195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683E1BA716CB08B70072F195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683E1BA616CB08B70072F195 /* Silva-Lab3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683E1BA916CB08B70072F195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683E1BAA16CB08B70072F195 /* UIKit.framework */,
+				683E1BAC16CB08B70072F195 /* Foundation.framework */,
+				683E1BAE16CB08B70072F195 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683E1BB016CB08B70072F195 /* Silva-Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				683E1BB916CB08B70072F195 /* AppDelegate.h */,
+				683E1BBA16CB08B70072F195 /* AppDelegate.m */,
+				683E1BC216CB08B70072F195 /* MainStoryboard.storyboard */,
+				683E1BC516CB08B70072F195 /* ViewController.h */,
+				683E1BC616CB08B70072F195 /* ViewController.m */,
+				683E1BB116CB08B70072F195 /* Supporting Files */,
+			);
+			path = "Silva-Lab3";
+			sourceTree = "<group>";
+		};
+		683E1BB116CB08B70072F195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				683378B216CD93AD00C94CB7 /* btnBg.jpg */,
+				683E1BDE16CB286B0072F195 /* none.jpg */,
+				683E1BDA16CB25690072F195 /* x.jpg */,
+				683E1BD616CB231E0072F195 /* o.jpg */,
+				683E1BB216CB08B70072F195 /* Silva-Lab3-Info.plist */,
+				683E1BB316CB08B70072F195 /* InfoPlist.strings */,
+				683E1BB616CB08B70072F195 /* main.m */,
+				683E1BB816CB08B70072F195 /* Silva-Lab3-Prefix.pch */,
+				683E1BBC16CB08B70072F195 /* Default.png */,
+				683E1BBE16CB08B70072F195 /* Default@2x.png */,
+				683E1BC016CB08B70072F195 /* Default-568h@2x.png */,
+				68D3B31716D0A954009ED2DB /* MyPoint.h */,
+				68D3B31816D0A985009ED2DB /* MyPoint.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683E1BA516CB08B70072F195 /* Silva-Lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683E1BCA16CB08B70072F195 /* Build configuration list for PBXNativeTarget "Silva-Lab3" */;
+			buildPhases = (
+				683E1BA216CB08B70072F195 /* Sources */,
+				683E1BA316CB08B70072F195 /* Frameworks */,
+				683E1BA416CB08B70072F195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silva-Lab3";
+			productName = "Silva-Lab3";
+			productReference = 683E1BA616CB08B70072F195 /* Silva-Lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683E1B9D16CB08B70072F195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Labuser;
+			};
+			buildConfigurationList = 683E1BA016CB08B70072F195 /* Build configuration list for PBXProject "Silva-Lab3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 683E1B9B16CB08B70072F195;
+			productRefGroup = 683E1BA716CB08B70072F195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683E1BA516CB08B70072F195 /* Silva-Lab3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683E1BA416CB08B70072F195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683E1BB516CB08B70072F195 /* InfoPlist.strings in Resources */,
+				683E1BBD16CB08B70072F195 /* Default.png in Resources */,
+				683E1BBF16CB08B70072F195 /* Default@2x.png in Resources */,
+				683E1BC116CB08B70072F195 /* Default-568h@2x.png in Resources */,
+				683E1BC416CB08B70072F195 /* MainStoryboard.storyboard in Resources */,
+				683E1BD716CB231E0072F195 /* o.jpg in Resources */,
+				683E1BDB16CB25690072F195 /* x.jpg in Resources */,
+				683E1BDF16CB286B0072F195 /* none.jpg in Resources */,
+				683378B316CD93AD00C94CB7 /* btnBg.jpg in Resources */,
+				6825C10016D2E166000E8BF1 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683E1BA216CB08B70072F195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683E1BB716CB08B70072F195 /* main.m in Sources */,
+				683E1BBB16CB08B70072F195 /* AppDelegate.m in Sources */,
+				683E1BC716CB08B70072F195 /* ViewController.m in Sources */,
+				68D3B31916D0A985009ED2DB /* MyPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		683E1BB316CB08B70072F195 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683E1BB416CB08B70072F195 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		683E1BC216CB08B70072F195 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683E1BC316CB08B70072F195 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683E1BC816CB08B70072F195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		683E1BC916CB08B70072F195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683E1BCB16CB08B70072F195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Silva-Lab3/Silva-Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Silva-Lab3/Silva-Lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		683E1BCC16CB08B70072F195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Silva-Lab3/Silva-Lab3-Prefix.pch";
+				INFOPLIST_FILE = "Silva-Lab3/Silva-Lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683E1BA016CB08B70072F195 /* Build configuration list for PBXProject "Silva-Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683E1BC816CB08B70072F195 /* Debug */,
+				683E1BC916CB08B70072F195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683E1BCA16CB08B70072F195 /* Build configuration list for PBXNativeTarget "Silva-Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683E1BCB16CB08B70072F195 /* Debug */,
+				683E1BCC16CB08B70072F195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683E1B9D16CB08B70072F195 /* Project object */;
+}
