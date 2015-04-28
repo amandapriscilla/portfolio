@@ -1,0 +1,5 @@
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF\bin\Debug\SIDAF.dll
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF\bin\Debug\SIDAF.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF\obj\Debug\ResolveAssemblyReference.cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF\obj\Debug\SIDAF.dll
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF\obj\Debug\SIDAF.pdb

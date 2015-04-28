@@ -1,0 +1,754 @@
+@charset "utf-8";
+
+/* 
+	sinal.css by SINAL
+	Copyright (c) 2012 - Infinith Systems
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	text-decoration: none;
+	
+	}
+
+body {
+	font: 100%/1.4 Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	background-color: #DDD; /*#42413C;*/
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica LT Std, Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	color: #777;
+	text-align: center;
+	display: block;
+	clear: both;
+}
+
+input.botao:hover {
+	cursor: pointer;
+	border-color: rgb(0,153,204); /* Borda azul */
+}
+
+
+label {
+	marging: 1em 1em 0em 0.3em;
+}
+
+p {
+	text-indent: 2em;
+	text-align: justify;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+
+#wrapper{
+	position: relative;
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	width: 781px;
+	background-color: #E7E7E7;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+/* ESTILOS DE CABECALHO */
+
+#header {
+	display: block;
+	position: relative;
+	width: 781px;
+	
+}
+
+#header #topheader{
+	float: left;
+	width: 725px;
+	background-color: #CCC;
+	
+	}
+
+/* Parte Esquerda do Cabeçalho*/
+#header #leftheader {
+	float: left;
+	clear: both;
+/*	height: 164px;*/
+	width: 242px;
+	background-color: #FFF;
+}
+
+
+/* Menu Sobre a Logomarca*/
+#header #leftheader ul#logomenu li{
+	list-style: none;
+	float: left;
+	display: inline;
+	height: 44px;
+}
+
+#header #leftheader #metrobottom1 {
+	float: left;
+	clear: both;
+	background-image: url(images/metrobottom1.png);
+	height: 162px;
+	width: 242px;
+
+}
+
+/* Menu Logo Home*/
+ul#logomenu li a.btn_home{
+	display: inline-table;
+	background-image: url(images/menuhome.png);
+	height: 44px;
+	width: 68px;
+	top: 0px;
+	left: 0px;
+	
+}
+
+/* Menu Logo Contato*/
+ul#logomenu li a.btn_contato{
+	display: inline-table;
+	background-image: url(images/menucontato.png);
+	height: 44px;
+	width: 92px;
+	top: 0px;
+	left: 68px;
+}
+
+
+/* Menu Logo Login*/
+ul#logomenu li a.btn_login{
+	display: inline-table;
+	background-image: url(images/menulogin.png);
+	height: 44px;
+	width: 82px;
+	top: 0px;
+	left: 160px;
+}
+
+ul#logo li {
+	list-style: none;
+
+}
+
+#header #leftheader  ul#logo li a.logo{
+	float: left;
+	background-image: url(images/logosinal.png);
+	height: 120px;
+	width: 242px;
+}
+
+/* Parte Central do Cabeçalho*/
+
+#header #centerheader{
+	display: inline;
+	width: 482px;
+}
+
+#header #centerheader #metrotop{
+	float: left;
+	background-image: url(images/metrotop.png);
+	height: 99px;
+	width: 482px;
+	text-align: right;
+}
+
+.pesqtext{
+	font: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	min-width: 250px;
+	min-height: 20px;
+	border-color: #FFF;
+	border-width: 4px;
+	background-color: #eff0ef;
+	margin-left: 3px;
+	size: 100px;
+	color: #999;
+	
+}
+
+
+
+#header #centerheader #metrotop input.pesqtext{
+	position: absolute;
+	top: 50px;
+	left: 475px;
+}
+
+
+/* Menu Laranja*/
+
+#header #centerheader ul#topmenu li{
+	list-style: none;
+	float: left;
+	display: inline;
+	height: 39px;
+	
+}
+
+
+#header #centerheader #topmenu a.btn_rotas{
+	display: inline-table;
+	background-image: url(images/menurotas.png);
+	height: 39px;
+	width: 121px;
+	top: 0px;
+	left: 0px;
+}
+
+
+#header #centerheader #topmenu a.btn_itinerarios{
+	display: inline-table;
+	background-image: url(images/menuitinerarios.png);
+	height: 39px;
+	width: 120px;
+	top: 0px;
+	left: 121px;
+}
+
+
+#header #centerheader #topmenu a.btn_mapas{
+	display: inline-table;
+	background-image: url(images/menumapas.png);
+	height: 39px;
+	width: 121px;
+	top: 0px;
+	left: 241px;
+}
+
+
+#header #centerheader #topmenu a.btn_noticias{
+	display: inline-table;
+	background-image: url(images/menunoticias.png);
+	height: 39px;
+	width: 120px;
+	top: 0px;
+	left: 362px;
+	vertical-align: bottom;
+}
+
+/*Imagem do Metro - Onde apresenta migalha de pao e o form de consultar horario*/
+
+#header #centerheader #top-trackingpath {
+	position: relative;
+	left: 0;
+	top: 0;
+	float: left;
+	background-image: url(images/top_trackingpath.png);
+	height: 26px;
+	width: 482px;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: middle;
+
+}
+
+
+.trackingpath {
+	margin: 5px 5px 0px 5px;
+	text-align: left;
+	color: #3c6d9d;
+	font-family: Helvetica LT Std, Helvetica, Tahoma, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	
+}
+
+.trackingpath a:link, .trackingpath a:visited {
+	color: #3c6d9d;	
+}
+.trackingpath a:hover {
+	color: #333;	
+}
+
+#header #bottomheader {
+	float: left;
+	clear: both;
+	display: block;
+	background-image: url(images/metrobottom.png);
+	height: 162px;
+	width: 724px;
+}
+
+#header #bottomheader #timer {
+	text-align: left;
+	text-indent: 5px;
+	margin-top: 0px;
+	margin-left: 240px;
+	width: 300px;
+	height: 100%;
+	font-family: Helvetica LT Std, Helvetica, Tahoma, Verdana, Geneva, sans-serif;
+	color: #000;
+	font-weight: bold;
+	/*background-color: #E6E6E6;*/
+	/*filter:opacity(alpha=90); /* para o IE */
+     /*-moz-opacity:0.9; /* para o FireFox */
+     /*opacity:0.9; /* para o outros Navegadores */
+}
+
+#header #bottomheader #timer  label{
+	font-size: 0.8em;
+	margin-top: 2em;
+
+}
+
+
+#header #bottomheader #timer .timeleft{
+	text-align: center;
+	font-size: 2.5em;
+	padding-left: 80px;	
+}
+
+
+#header #bottomheader #timer .lbtimer{
+	margin-bottom: 0.em;
+	font-size: 1em;
+}
+
+
+
+/* FORM CONSULTAR HORARIOS */
+
+select.input {
+/*#header #bottomheader #timer select {*/
+	float: left;
+	display: block;
+	width: 300px;
+	margin: 3px;
+	font-weight: bold;
+	border: 1px solid #FFF;
+	background-color: rgb(240,240,240);
+	color:  #777; /*rgb(153,153,153); */
+	/*padding: 0.3em 0.5em 0.3em 0.5em;-->*/
+	font-size: 1em;
+
+	
+}
+
+#header #bottomheader #timer input {
+	background-color: transparent;
+	background: url("images/btn_consultarhorario.png") no-repeat;
+	font-family: Helvetica LT Std, Helvetica, Tahoma, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 0em;
+	text-decoration: underline;
+	text-align: left;
+	width: 200px;
+	height: 25px;
+}
+
+#header #bottomheader #timer input:hover, select:hover{
+	cursor: pointer;
+	
+	
+}
+
+/*Barras cinzas na área direita*/
+
+#header #rightheader{
+	position: absolute;
+	top: 0px;
+	left: 724px;
+	width: 57px;
+	background-color: #FFF;
+}
+
+#header #rightheader #graybar1 {
+	background-image: url(images/bargray1.png);
+	height: 138px;
+	width: 56px;
+}
+
+#header #rightheader #graybar2 {
+	background-image: url(images/bargray2.png);
+	height: 188px;
+	width: 56px;
+}
+
+/* Barras separadoras centrais */
+
+#header #separator {
+	position: relative;
+	clear: both;
+	width: 781px;
+
+}
+
+#header #separator #orangebar{
+	background-image: url(images/orangebar.png);
+	height: 88px;
+	width: 22px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#header #separator #whitebar{
+	display: block;
+	float: right;
+	top: 0px;
+	background-image: url(images/whitebar.png);
+	background-repeat: repeat-x;
+	height: 88px;
+	width: 759px;
+	box-shadow: 2px -1px 7px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 2px -1px 7px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 2px -1px 7px rgba(0, 0, 0, 0.6);
+}
+
+#timer #rotainfo #rnome{
+	width: 240px;
+	height: 62px;
+	background-image: url(images/middle_boxrota.png);
+	
+}
+#timer #rotainfo {
+
+	color: #FF7900
+}
+
+
+/* -----------------------------------------------------------------*/
+/*  CORPO DO SITE */
+
+
+#center{
+	/*position: relative;
+	top: 88px;*/
+	display: inline;
+	float: left;
+	top: 88px;
+	clear: both;
+	width: 781px;
+	min-height: auto;
+	background: #E7E7E7 url(images/center_sidemenu.png) repeat-y;
+	min-height: 200px;
+	height: 100%;
+	padding-bottom: 20px;
+	box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+#center #widecontent{
+	display: inline;
+	float: left;
+	width: 710px;
+	min-height: 200px;
+	height: 100%;
+	marging-left: 0px;
+	padding-bottom: 20px;
+}
+
+
+#center #sidemenu{
+	display: inline;
+	float: left;
+	text-align: left;
+	margin-right: 50px;
+	marging-left: 0px;
+	width: 200px;
+	min-height: 200px;
+	height: 100%;
+	}
+
+#center #widecontent table td{
+	padding-right: 15px;
+	text-align: left;
+}
+
+#center #content{
+	display: inline;
+	float: left;
+	width: 450px;
+	marging-left: 220px;
+	min-height: 200px;
+	height: 100%;
+	padding-bottom: 20px;
+
+	}
+
+/*Titulo da Página*/
+#center #sidetitle {
+	background: #E7E7E7 url(images/center_rightbar.png) repeat-y;
+	display: inline;
+	float: right;
+	width: 56px;
+	marging-right: 0px;
+	min-height: 200px;
+	height: 100%;
+	}
+
+
+#center #sidemenu h3{
+	color: black;
+	font-weight: bold;	
+	margin: 15px 30px;
+}	
+	
+#center #sidemenu .newsbox {
+	float: left;
+	width:192px;
+	height:86px;
+	background-image:url(images/center_sidemenu_newsbox.png);
+	/*background-repeat: no-repeat;*/
+	margin-bottom: 10px;
+	padding: 5px 20px 0px 30px;
+}
+
+#center #sidemenu .new {
+	text-indent: 0em;
+	margin-bottom: 0.5em;
+	font-size: 0.8em;
+	max-width: 200px;
+	width: 200px;
+}
+
+/*Link para ler mais de Noticias*/
+#center .leiamais {
+	float: right;
+	font-size: 12px;
+	color: #0062AC;
+	
+}
+
+/* Links de Administrador*/
+#center #sidemenu ul{
+	margin-top: 40px;
+	
+}	
+
+#center #sidemenu ul li{
+	list-style: none;
+}
+
+
+#center #sidemenu .menu_item {
+	position: relative;
+	left: 0px;
+	width:200px;
+	height:31px;
+	text-align: left;
+	background-image:url(images/center_sidemenu_btn.png);
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding: 0px 30px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: Helvetica LT Std, Helvetica, Tahoma, Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	vertical-align: middle;
+	color: #0062AC;
+}
+
+#center #sidemenu ul li spam{
+	vertical-align: middle;
+}
+
+#center #sidemenu ul a:link, #center #sidemenu ul a:visited {
+	color: #0062AC;
+		
+	
+}	
+
+#center #sidemenu ul a:hover{
+	color: #f52500;
+	
+}
+
+
+#center #sidemenu span{
+	vertical-align: middle;
+	padding-top: 5px;
+}
+#center #sidemenu ul li a:link, #center #sidemenu ul li a:visited{
+	color: #0062AC;
+
+}
+#center #sidemenu ul li a:hover {
+	color: #333;	
+}
+
+
+
+#center #content .illustration{
+	background: url(images/relogio.png) no-repeat;
+	height: 100px;
+	width: 100px;
+
+	
+}
+
+
+#center #widecontent table{
+	margin: 20px auto;
+	
+	
+}
+
+	
+#center #sidetitle div{
+	width: 25px;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+#center #sidetitle #titlehome {
+	background-image: url(images/title_home.png);
+	
+}
+
+#center #sidetitle #titlenoticias {
+	background-image: url(images/title_noticias.png);
+}
+
+#center #sidetitle #titlerotas {
+	background-image: url(images/title_rotas.png);
+}
+
+#center #sidetitle #titleparadas {
+	background-image: url(images/title_paradas.png);
+}
+
+#center #sidetitle #titleempresas {
+	background-image: url(images/title_empresas.png);
+}
+
+#center #sidetitle #titlefuncionarios {
+	background-image: url(images/title_funcionarios.png);
+}
+
+#center #sidetitle #titleveiculos {
+	background-image: url(images/title_veiculos.png);
+}
+
+#center #sidetitle #titlesac {
+	background-image: url(images/title_sac.png);
+}
+
+
+
+/* Input Style */
+
+#center input {
+	border: 1px solid #FFF;
+	background-color: rgb(240,240,240);
+	color:  #797979; /*rgb(153,153,153); /* #797979; */
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+#center .txt{
+	width: 280px;
+	height: 15px;
+	margin: 3px;
+	background-color: rgb(240,240,240);
+	font-size: 1em;
+	
+}
+
+
+
+#center input.login {
+	border: 1px solid #FFF;
+	background-color: rgb(240,240,240);
+	color: #797979; /* rgb(153,153,153); /* #797979; */
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	margin-bottom: 0.5em;
+	height: 15px;
+	font-size: 1em;
+	text-transform: none;
+}
+
+#center input:hover {
+	border-color: rgb(0,153,204); /* Borda azul */
+}
+
+#center input:focus {
+	border-color: rgb(250,187,0); /* Borda laranja */
+	outline: none;
+}
+
+#center input:active {
+	border-color: rgb(250,187,0); /* Borda laranja */
+	background-color: rgb(234,234,234);
+}
+
+#center input.botao {
+	border: none;
+/*	background: #E7E7E7 url(images/btn_default.png) no-repeat;*/
+	background-position: right;
+	width: 120px;
+	color: #0062AC; /* rgb(153,153,153);  */
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: Helvetica LT Std, Helvetica, Tahoma, Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	vertical-align: middle;
+	
+}
+
+
+
+
+
+/* -----------------------------------------------------------------*/
+/*  RODAPÉ DO SITE */
+
+
+
+#footer {
+    /*position: absolute;
+	bottom: 0px;*/
+	float: left;
+	clear: both;
+	background-color: #E7E7E7;
+	height: 62px;
+	width: 781px;
+	background-image: url(images/footwhitebar.png);
+	/*background-image: url(images/rodape.png);*/
+	background-repeat: repeat-x;
+	text-align: left;
+	box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+.copyright{
+	margin-left: 10px;
+	font: verdana;
+	
+	}

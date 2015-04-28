@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SIDAFScripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="localhost:sa">
+          <Created>2010-03-18T18:18:12.3903854-03:00</Created>
+          <Type>SQL</Type>
+          <Server>localhost</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>SIDAF</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="FUN_CriptografaSenha.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>FUN_CriptografaSenha.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FUN_DescriptografaSenha.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>FUN_DescriptografaSenha.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_atualizarCLIENTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_atualizarCLIENTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_atualizarFUNCIONARIO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_atualizarFUNCIONARIO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_atualizarSAC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_atualizarSAC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_atualizarTIPO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_atualizarTIPO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_cadastrarCLIENTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_cadastrarCLIENTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_cadastrarESTORNO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_cadastrarESTORNO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_cadastrarFUNCIONARIO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_cadastrarFUNCIONARIO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_cadastrarSAC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_cadastrarSAC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_cadastrarTIPO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_cadastrarTIPO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_excluirCLIENTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_excluirCLIENTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_excluirFUNCIONARIO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_excluirFUNCIONARIO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_excluirSAC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_excluirSAC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_excluirTIPO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_excluirTIPO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarCLIENTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarCLIENTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarCLIENTEporCPF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarCLIENTEporCPF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarCLIENTEporID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarCLIENTEporID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarCLIENTEporRG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarCLIENTEporRG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarFUNCIONARIO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarFUNCIONARIO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarFUNCIONARIOporCPF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarFUNCIONARIOporCPF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarFUNCIONARIOporEMPRESA.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarFUNCIONARIOporEMPRESA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarFUNCIONARIOporID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarFUNCIONARIOporID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarFUNCIONARIOporRG.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarFUNCIONARIOporRG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarPRODUTOporID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarPRODUTOporID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarPRODUTOporNOME.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarPRODUTOporNOME.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarPRODUTOporPrincipioAtivo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarPRODUTOporPrincipioAtivo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarSAC.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarSAC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarSACporID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarSACporID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarTIPO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarTIPO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarTIPOporID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarTIPOporID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarVENDAporCODIGO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PRO_selecionarVENDAporCODIGO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PRO_selecionarVENDAporDATA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PRO_selecionarVENDAporDATA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRI_RemoverUsuario.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>TRI_RemoverUsuario.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TRI_RemoverEndereco.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>TRI_RemoverEndereco.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

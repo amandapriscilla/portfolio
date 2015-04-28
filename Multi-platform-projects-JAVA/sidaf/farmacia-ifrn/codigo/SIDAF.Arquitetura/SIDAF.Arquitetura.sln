@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SIDAF.Arquitetura", "SIDAF.Arquitetura\SIDAF.Arquitetura.modelproj", "{9C8F0503-070C-4937-8911-DF8018B97536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8F0503-070C-4937-8911-DF8018B97536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8F0503-070C-4937-8911-DF8018B97536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8F0503-070C-4937-8911-DF8018B97536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8F0503-070C-4937-8911-DF8018B97536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

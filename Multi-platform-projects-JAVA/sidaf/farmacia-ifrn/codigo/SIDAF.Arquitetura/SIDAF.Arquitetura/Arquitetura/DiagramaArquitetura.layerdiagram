@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="e8c8418f-6fdf-45ea-8db3-49bbaf8d097b" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="7f07097d-65b5-4f9f-a205-f586874f7d40" name="Comment1">
+      <body>Windows Forms e C#</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="ec7b3b1f-e63b-4b50-bf2c-5daad4be8e82" />
+        </linkFromCommentToLayerElement>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="bb92279d-338c-4bd9-bf43-3f7196e03d82" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="05b6fc6e-8a40-47c4-8eae-69ba923e611d" name="Comment2">
+      <body>JSF e Java</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="4e6c7b0b-e845-4dca-b106-72d0d865da34" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="201f5930-7397-4017-954a-45247f773f56" name="Comment3">
+      <body>Smart Device e C#</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="4248feb0-8c5d-4a32-aae3-f50ab1de59b2" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="417647cb-7520-4a29-8ca7-a621183774ed" name="SIDAF C# Core">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="5e5ceafc-8615-4800-aff8-776b7086fd9f" direction="Bidirectional">
+          <layerMoniker Id="88a42791-dd52-4191-ba93-f01d0e61b97f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="a7a4209e-fc46-4ade-a942-8fb5e84a472d" name="Business Logic Layer">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="b6106e05-6939-4536-acb7-19e048c99b0a" direction="Bidirectional">
+              <layerMoniker Id="0064af43-dee6-4eae-a3c1-782d680ebe2a" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="debccff7-058a-40fa-874f-21c3f7273247" direction="Bidirectional">
+              <layerMoniker Id="eaf87a8e-4a1c-47dc-a7f7-faa571d1bdba" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="0064af43-dee6-4eae-a3c1-782d680ebe2a" name="Data Access Layer">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="4a42046a-bc5c-4439-a5de-68bec91610dc" direction="Bidirectional">
+              <layerMoniker Id="ca02d228-f6aa-4079-ac28-4bd9c292c713" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="ca02d228-f6aa-4079-ac28-4bd9c292c713" name="SQL Server 2008">
+      <description>SQL Server 2008</description>
+    </layer>
+    <layer Id="88a42791-dd52-4191-ba93-f01d0e61b97f" name="WebService Matriz" />
+    <layer Id="4248feb0-8c5d-4a32-aae3-f50ab1de59b2" name="SIDAF.UI.ESTOQUE [MOBILE]">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="c446d27d-b200-4544-b8ae-5331fdd6dcfe" direction="Bidirectional">
+          <layerMoniker Id="1860b421-a9dd-445e-a373-327f78f49ef8" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="ec7b3b1f-e63b-4b50-bf2c-5daad4be8e82" name="SIDAF.UI.MATRIZ [DESKTOP]">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1102bc6c-4f19-4ea3-96a6-1534f9b79aa0" direction="Bidirectional">
+          <layerMoniker Id="88a42791-dd52-4191-ba93-f01d0e61b97f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="bb92279d-338c-4bd9-bf43-3f7196e03d82" name="SIDAF.UI.FILIAL [DESKTOP]">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="451fbc9e-fd34-4b56-ba05-476d8433d1e4" direction="Bidirectional">
+          <layerMoniker Id="c432b611-509a-432b-a94e-4ebf8e52a74f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="4e6c7b0b-e845-4dca-b106-72d0d865da34" name="SIDAF.UI.PORTAL [WEB]">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="98c5bed4-9830-4231-be7d-a31ede941ffd" direction="Bidirectional">
+          <layerMoniker Id="098084ad-417f-424c-a6b3-b0912199f05c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="20407368-6196-4892-a547-84744de305ef" name="RMI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="253433d4-6e40-4a42-a1d2-32d7a357c514" direction="Bidirectional">
+          <layerMoniker Id="4e6c7b0b-e845-4dca-b106-72d0d865da34" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="c432b611-509a-432b-a94e-4ebf8e52a74f" name="WebService Filial">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="ad3d65ca-cb56-4e97-bd8f-16b5017c2df5" direction="Bidirectional">
+          <layerMoniker Id="417647cb-7520-4a29-8ca7-a621183774ed" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="1860b421-a9dd-445e-a373-327f78f49ef8" name="WebService Mobile">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="68453146-cdc4-4d4a-96e3-40bc75db0803" direction="Bidirectional">
+          <layerMoniker Id="417647cb-7520-4a29-8ca7-a621183774ed" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="098084ad-417f-424c-a6b3-b0912199f05c" name="WebService Portal">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="76df29b2-7d93-4f6f-b9fc-edfdad56e7a9" direction="Bidirectional">
+          <layerMoniker Id="417647cb-7520-4a29-8ca7-a621183774ed" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="eaf87a8e-4a1c-47dc-a7f7-faa571d1bdba" name="WebService SESAZ" />
+  </layers>
+</layerModel>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F64A3B5-76C8-4654-B889-ABC3A2F20E58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIDAF.UI.FILIAL</RootNamespace>
+    <AssemblyName>SIDAF.UI.FILIAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Ribbon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SIDAF.UI.MATRIZ\bin\Debug\System.Windows.Forms.Ribbon.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Financeiro\frmAbrirCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financeiro\frmAbrirCaixa.Designer.cs">
+      <DependentUpon>frmAbrirCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financeiro\frmEstornarVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financeiro\frmEstornarVenda.Designer.cs">
+      <DependentUpon>frmEstornarVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financeiro\frmFecharCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financeiro\frmFecharCaixa.Designer.cs">
+      <DependentUpon>frmFecharCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financeiro\frmRegistrarSaida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financeiro\frmRegistrarSaida.Designer.cs">
+      <DependentUpon>frmRegistrarSaida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financeiro\frmRegistrarVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financeiro\frmRegistrarVenda.Designer.cs">
+      <DependentUpon>frmRegistrarVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmAddEspecificacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmAddEspecificacao.Designer.cs">
+      <DependentUpon>frmAddEspecificacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmBuscaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmBuscaProduto.Designer.cs">
+      <DependentUpon>frmBuscaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmNovoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmNovoCliente.Designer.cs">
+      <DependentUpon>frmNovoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerencia\frmNovoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerencia\frmNovoFuncionario.Designer.cs">
+      <DependentUpon>frmNovoFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Financeiro\frmAbrirCaixa.resx">
+      <DependentUpon>frmAbrirCaixa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financeiro\frmEstornarVenda.resx">
+      <DependentUpon>frmEstornarVenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financeiro\frmRegistrarVenda.resx">
+      <DependentUpon>frmRegistrarVenda.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerencia\frmAddEspecificacao.resx">
+      <DependentUpon>frmAddEspecificacao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerencia\frmBuscaProduto.resx">
+      <DependentUpon>frmBuscaProduto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerencia\frmNovoCliente.resx">
+      <DependentUpon>frmNovoCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerencia\frmNovoFuncionario.resx">
+      <DependentUpon>frmNovoFuncionario.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\frmExibirRelatorios.resx">
+      <DependentUpon>frmExibirRelatorios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\frmInformacoesCaixa.resx">
+      <DependentUpon>frmInformacoesCaixa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\frmProdutosEmEstoque.resx">
+      <DependentUpon>frmProdutosEmEstoque.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Relatorio\frmExibirRelatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\frmExibirRelatorios.Designer.cs">
+      <DependentUpon>frmExibirRelatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\frmInformacoesCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\frmInformacoesCaixa.Designer.cs">
+      <DependentUpon>frmInformacoesCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\frmProdutosEmEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio\frmProdutosEmEstoque.Designer.cs">
+      <DependentUpon>frmProdutosEmEstoque.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Usuario\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

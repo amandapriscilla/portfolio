@@ -1,0 +1,27 @@
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.exe
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\System.Windows.Forms.Ribbon.DLL
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\ResolveAssemblyReference.cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.frmPrincipal.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.Properties.Resources.resources
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.csproj.GenerateResource.Cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.exe
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.pdb
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.exe
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.pdb
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.frmPrincipal.resources
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.Properties.Resources.resources
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.csproj.GenerateResource.Cache
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.exe
+C:\Documents and Settings\200824040212\Desktop\SIDAF\trunk\codigo\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.pdb
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.exe
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\bin\Debug\SIDAF.UI.MATRIZ.pdb
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\ResolveAssemblyReference.cache
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.frmPrincipal.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.Gerencia.frmbuscarFuncionario.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.FILIAL.Gerencia.frmRealizarPedido.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.Properties.Resources.resources
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.csproj.GenerateResource.Cache
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.exe
+D:\Kairon\Documents\Visual Studio 2008\Projects\SIDAF\SIDAF.UI.MATRIZ\obj\Debug\SIDAF.UI.MATRIZ.pdb

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>SINAL | Transportes Pontuais</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta name="keywords" content="SINAL, Transportes, Pontuais, Infinith, Systems"/>
+	<link rel="stylesheet" href="css/all.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="fontes/fontes.css" type="text/css" charset="utf-8"/>
+	<link rel="icon" href="imagens/Sinal.ico" type="image/x-icon"/>
+</head>
+
+<body>
+<!-- SINAL | Transportes Pontuais -->
+<div id="SINAL-Layout">
+	
+	<!-- Header -->
+	<div id="header">
+		<div id="btn-home">
+			<a href="FrontController?pagina=home" target="_self"
+				onmouseover="window.status='Ir à página inicial';  return true;"
+				onmouseout="window.status='';  return true;" title="Ir à página inicial">
+				<img src="imagens/btn_home.png" width="68" height="46" border="0" alt="Home" /></a>
+		</div>
+		<div id="btn-contato">
+			<a href="FrontController?pagina=contato" target="_self"
+				onmouseover="window.status='Entrar em contato conosco';  return true;"
+				onmouseout="window.status='';  return true;" title="Entrar em contato conosco">
+				<img src="imagens/btn_contato.png" width="92" height="46" border="0" alt="Contato" /></a>
+		</div>
+		<div id="btn-login">
+			<a href="login.php" target="_self"
+				onmouseover="window.status='Acesso à área restrita';  return true;"
+				onmouseout="window.status='';  return true;" title="Acesso a área restrita">
+				<img src="imagens/btn_login.png" width="82" height="46" border="0" alt="Login" /></a>
+		</div>
+		
+		<div id="header-topbackground"></div>
+		<div id="logo">
+			<a href="FrontController?pagina=home" target="_self"
+				onmouseover="window.status='SINAL | Transportes Pontuais';  return true;"
+				onmouseout="window.status='';  return true;" title="SINAL | Transportes Pontuais">
+				<img src="imagens/logo.png" width="242" height="118" border="0" alt="SINAL | Transportes Pontuais" /></a>
+		</div>
+		
+		<div id="menu">
+			<div id="btn-rotas">
+				<a href="FrontController?pagina=rotas&acao=listar" target="_self"
+					onmouseover="window.status='Informações sobre as rotas dos transportes disponíveis';  return true;"
+					onmouseout="window.status='';  return true;" title="Informações sobre as rotas dos transportes disponíveis">
+					<img src="imagens/btn_rotas.png" width="121" height="39" border="0" alt="Rotas" /></a>
+			</div>
+			<div id="btn-itinerarios">
+				<a href="FrontController?pagina=itinerarios&acao=listar" target="_self"
+					onmouseover="window.status='Horários previstos das rotas';  return true;"
+					onmouseout="window.status='';  return true;" title="Horários previstos das rotas">
+					<img src="imagens/btn_itinerarios.png" width="120" height="39" border="0" alt="Itiner&#225;rios" /></a>
+			</div>
+			<div id="btn-mapas">
+				<a href="FrontController?pagina=mapas&acao=listar" target="_self"
+					onmouseover="window.status='Mapas das rotas existentes';  return true;"
+					onmouseout="window.status='';  return true;" title="Mapas das rotas existentes">
+					<img src="imagens/btn_mapas.png" width="121" height="39" border="0" alt="Mapas" /></a>
+			</div>
+			<div id="btn-noticias">
+				<a href="FrontController?pagina=noticias&acao=listar" target="_self"
+					onmouseover="window.status='Acontecimentos e novidades relacionadas aos transportes';  return true;"
+					onmouseout="window.status='';  return true;" title="Acontecimentos e novidades relacionadas aos transportes">
+					<img src="imagens/btn_noticias.png" width="120" height="39" border="0" alt="Not&#237;cias" /></a>
+			</div>
+			<div id="btn-sobre">
+				<a href="#" target="_self"
+					onmouseover="window.status='Saiba mais sobre o SINAL';  return true;"
+					onmouseout="window.status='';  return true;" title="Saiba mais sobre o SINAL">
+					<img src="imagens/btn_sobre.png" width="120" height="39" border="0" alt="Sobre" /></a>
+			</div>
+		</div>
+		
+		<div id="header-graybox"></div>
+		<div id="header-trackingpath">
+			<a href="#">HOME</a> » <a href="#">ROTAS</a>
+		</div>
+		<div id="header-diagonalgraybox"></div>
+		<div id="header-background"></div>
+	</div>
+		
+	<!-- Middle -->
+	<div id="middle">
+		<div id="middle-orangebox"></div>
+		<div id="middle-bannerbar"></div>
+	</div>
+	
+	<!-- Center -->
+	<div id="center">
+		<div id="sidemenubar">
+			<div id="center-sidenewstitle"></div>
+			<div id="center-newstitle"></div>			
+			
+			<div class="center-sidenews"></div>
+			<div class="center-news"></div>
+
+			<div class="center-sidenews"></div>
+			<div class="center-news"></div>
+			
+			<div class="center-sidenews"></div>
+			<div class="center-news"></div>
+		</div>
+		
+		<div id="center-background">
+			<h1>Sobre</h1>
+			<p>O Sistema de Notificações Automáticas de Localização (SINAL) é um conceito novo em tecnologia que fornece à população em geral um serviço de consulta a horários e geolocalizações a partir do itinerário dos veículos em circulação de diversas empresas de transporte.</p>
+			<h2>ROTAS</h2>
+			<h3>Contato</h3>
+			<form id="formcontato" action="FrontController" method="post" onsubmit="validateForm();">
+            <label>Nome</label>
+            <input class="txt" type="text" name="nome"/>
+            <label>E-mail</label>
+            <input class="txt" type="text" id="email" name="email" />
+            <label>Assunto</label>
+            <select class="input" name="assunto">
+                <option value="Assunto" selected="selected">Assunto</option>
+                <option value="1">Dúvidas</option>
+                <option value="2">Melhorias</option>
+                <option value="3">Elogios</option>
+                <option value="4">Reclamações</option>
+                <option value="5">Denúncias</option>
+            </select>
+            <label>Descrição</label>
+            <textarea name="descricao" class="txtarea" cols="30" rows="5"></textarea>
+            <input type="hidden" name="pagina" value="contato"/>
+            <input class="botao" title="Enviar dados" value="Contato" type="submit" id="acao" />
+            </form>
+            <h2>Clearing Method</h2>
+			<p>Because all the columns are floated, this layout uses a clear:both declaration in the .footer rule. This clearing technique forces the .container to understand where the columns end in order to show any borders or background colors you place on the .container. If your design requires you to remove the .footer from the .container, you'll need to use a different clearing method. The most reliable will be to add a &lt;br class=&quot;clearfloat&quot; /&gt; or &lt;div  class=&quot;clearfloat&quot;&gt;&lt;/div&gt; after your final floated column (but before the .container closes).</p>
+			<h3>Logo Replacement</h3>
+			<p>An image placeholder was used in this layout in the .header where you'll likely want to place  a logo. It is recommended that you remove the placeholder and replace it with your own linked logo. </p>
+			<p> Be aware that if you use the Property inspector to navigate to your logo image using the SRC field (instead of removing and replacing the placeholder), you should remove the inline background and display properties. These inline styles are only used to make the logo placeholder show up in browsers for demonstration purposes. </p>
+			<p>To remove the inline styles, make sure your CSS Styles panel is set to Current. Select the image, and in the Properties pane of the CSS Styles panel, right click and delete the display and background properties. (Of course, you can always go directly into the code and delete the inline styles from the image or placeholder there.)</p>
+		</div>
+		
+		<div id="center-sectionbar">
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div id="footer-copyrightbar" class="copyright">Copyright © 2012 - Infinith Systems</div>
+	</div>
+</div>
+</body>
+</html>

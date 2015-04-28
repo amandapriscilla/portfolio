@@ -1,0 +1,27 @@
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.dll
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.dll
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.dll
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.dll
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.pdb
+D:\IFRN\4º Semestre (2010.1)\Projeto de Desenvolvimento de Sistema Distribuído (CSTDS.SP02)\farmacia-ifrn\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.pdb
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.dll
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.pdb
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.dll
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.dll
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.pdb
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.pdb
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.dll
+C:\Documents and Settings\p071521634\Desktop\SIDAF\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.pdb
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.dll
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.BLL.pdb
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.dll
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.dll
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.DAL.pdb
+E:\codigo\SIDAF\SIDAF.BLL\bin\Debug\SIDAF.Model.pdb
+E:\codigo\SIDAF\SIDAF.BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.dll
+E:\codigo\SIDAF\SIDAF.BLL\obj\Debug\SIDAF.BLL.pdb

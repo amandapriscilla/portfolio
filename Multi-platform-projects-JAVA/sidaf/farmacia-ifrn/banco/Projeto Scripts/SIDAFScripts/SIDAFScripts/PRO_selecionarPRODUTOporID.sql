@@ -1,0 +1,17 @@
+USE [SIDAF]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE selecionarPRODUTOporID
+	@IDProduto int
+AS
+	SELECT * FROM Produto
+	WHERE IDProduto = @IDProduto
+GO
+
+

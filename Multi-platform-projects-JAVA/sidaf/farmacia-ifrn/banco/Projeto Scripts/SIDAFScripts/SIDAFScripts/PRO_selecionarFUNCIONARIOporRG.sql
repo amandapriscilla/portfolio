@@ -1,0 +1,15 @@
+USE [SIDAF]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE selecionarFUNCINARIOporRG
+	@rg int
+AS
+	SELECT * FROM [SIDAF].[dbo].[Funcionario]
+	WHERE rg = @rg
+GO

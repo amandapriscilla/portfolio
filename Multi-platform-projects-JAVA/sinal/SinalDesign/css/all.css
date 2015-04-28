@@ -1,0 +1,477 @@
+@charset "iso-8859-1";
+/* 
+	SINAL | Transportes Pontuais
+	Copyright © 2012 - Infinith Systems
+*/
+
+/* Tags HTML*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: 100%/1.4 Helvetica LT Std, Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	text-decoration: none;
+	color: #797979;
+}
+
+p {
+	text-indent: 2em;
+	text-align: justify;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+h3 {
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+/* Links */
+a:link {
+	color: #3C6D9D;
+	text-decoration: underline;
+}
+a:visited {
+	color: #990000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+/* Form Styles */
+
+form {
+	float: left;
+	clear: both;
+	padding: 10px 0px 5px 0px;
+	width: 100%;
+	display: block;
+}
+
+label, input, textarea, select, button {
+	float: left;
+	clear: both;
+	padding: 10px 0px 0px 0px;
+}
+
+label {
+	font-weight: 500;
+	font: 100%/1.4 'HelveticaInseratLTStdRoman', Helvetica LT Std, Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+label[class=title] {
+	color: #036;
+}
+
+input[type=text], input[type=password], textarea {
+	border: 1px solid #FFF;
+	background-color: rgb(240,240,240);
+	color: rgb(153,153,153); /* #797979; */
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+input[type=text],input[type=password], textarea, select {
+	width: 350px;
+}
+
+input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover {
+	border-color: rgb(0,153,204); /* Borda azul */
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus {
+	border-color: rgb(250,187,0); /* Borda laranja */
+	outline: none;
+}
+
+input[type=text]:active, input[type=password]:active, textarea:active select:active {
+	border-color: rgb(250,187,0); /* Borda laranja */
+	background-color: rgb(234,234,234);
+}
+
+input[type=submit] {
+	background-image: url(../imagens/btn_enviar.png);
+	float: right;
+	border: none;
+}
+
+select {
+
+}
+
+textarea {
+
+}
+
+/* Layout */
+#SINAL-Layout {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	width:901px;
+	height:auto;
+	box-shadow: 2px -1px 7px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 2px -1px 7px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 2px -1px 7px rgba(0, 0, 0, 0.6);
+}
+
+#header {
+	position: relative;
+	float: left;
+	width: 901px;
+	height: 326px;
+}
+
+#btn-home {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:68px;
+	height:46px;
+}
+
+#btn-contato {
+	position:absolute;
+	left:68px;
+	top:0px;
+	width:92px;
+	height:46px;
+}
+
+#btn-login {
+	position:absolute;
+	left:160px;
+	top:0px;
+	width:82px;
+	height:46px;
+}
+
+#header-topbackground {
+	background-color:#E7E7E7;
+	background-image: url(../imagens/header_topbackground.png);
+	position:absolute;
+	left:242px;
+	top:0px;
+	width:659px;
+	height:99px;
+}
+
+#logo {
+	background-color:#E5E5E5;
+	position:absolute;
+	left:0px;
+	top:46px;
+	width:242px;
+	height:118px;
+}
+
+#btn-rotas {
+	position:absolute;
+	left:242px;
+	top:99px;
+	width:121px;
+	height:39px;
+}
+
+#btn-itinerarios {
+	position:absolute;
+	left:363px;
+	top:99px;
+	width:120px;
+	height:39px;
+}
+
+#btn-mapas {
+	position:absolute;
+	left:483px;
+	top:99px;
+	width:121px;
+	height:39px;
+}
+
+#btn-noticias {
+	position:absolute;
+	left:604px;
+	top:99px;
+	width:121px;
+	height:39px;
+}
+
+#btn-sobre {
+	position:absolute;
+	left:725px;
+	top:99px;
+	width:120px;
+	height:39px;
+}
+
+#header-graybox {
+	background-image: url(../imagens/header_graybox.png);
+	position:absolute;
+	left:845px;
+	top:99px;
+	width:56px;
+	height:39px;
+}
+
+#header-trackingpath {
+	background-color:#E7E7E7;
+	background-image: url(../imagens/header_trackingpath.png);
+	position:absolute;
+	left:242px;
+	top:138px;
+	width:603px;
+	height:26px;
+	color: #3C6D9D;
+	vertical-align: middle;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 5px;
+	padding-bottom: -5px;
+}
+
+#header-diagonalgraybox {
+	background-image: url(../imagens/header_diagonalgraybox.png);
+	position:absolute;
+	left:845px;
+	top:138px;
+	width:56px;
+	height:188px;
+}
+
+#header-background {
+	background-color:#E7E7E7;
+	background-image: url(../imagens/header_background.png);
+	position:absolute;
+	left:0px;
+	top:164px;
+	width:845px;
+	height:162px;
+}
+
+#middle {
+	position: relative;
+	width: 901px;
+	height: 88px;
+	float: left;
+}
+
+#middle #middle-orangebox{
+	background-image: url(../imagens/middle_orangebox.png);
+	position: absolute;
+	left: 0px;
+	width: 21px;
+	height: 88px;
+}
+
+#middle #middle-bannerbar{
+	background-image: url(../imagens/middle_bannerbar.png);
+	background-repeat: repeat-x;
+	position:absolute;
+	left:21px;
+	width:880px;
+	height:88px;
+}
+
+#center {
+	background-image: url(../imagens/faux.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	width: 901px;
+	height: auto !important;
+	min-height: 378px;
+	float: left;
+	position: relative;
+}
+
+#center #sidemenubar {
+	float: left;
+	width: 242px;
+	height: 100%;
+}
+
+#center #sidemenubar #center-sidenewstitle {
+	background-image: url(../imagens/center_sidenewstitle.png);
+	width:21px;
+	height:39px;
+	float: left;
+}
+
+#center #sidemenubar #center-newstitle {
+	background-color:#E6E6E6;
+	width:221px;
+	height:39px;
+	float: left;
+	left: 21px;
+}
+
+#center #sidemenubar .center-sidenews {
+	background-image: url(../imagens/center_sidebarnews.png);
+	width:21px;
+	height:91px;
+	margin-bottom: 9px;
+	float: left;
+}
+
+#center #sidemenubar .center-news {
+	background-image: url(../imagens/center_news.png);
+	left:21px;
+	height:91px;
+	margin-bottom: 9px;
+	float: left;
+	width: 221px;
+}
+
+#center #sidemenubar .center-sidenewsdivisor {
+	background-image: url(../imagens/center_sidenewsdivisor.png);
+	position:absolute;
+	left:0px;
+	top:130px;
+	width:21px;
+	height:9px;
+}
+
+#center #sidemenubar .center-newsdivisor {
+	background-color:#E6E6E6;
+	position:absolute;
+	left:21px;
+	top:130px;
+	width:221px;
+	height:9px;
+}
+
+#center #sidemenubar #center-sidesecondnews {
+	background-image: url(../imagens/center_sidebarnews.png);
+	position:absolute;
+	left:0px;
+	top:139px;
+	width:21px;
+	height:91px;
+}
+
+#center #sidemenubar #center-secondnews {
+	background-image: url(../imagens/center_news.png);
+	position:absolute;
+	left:21px;
+	top:139px;
+	width:221px;
+	height:91px;
+}
+
+#center #sidemenubar #center-sidenewsseconddivisor {
+	background-image: url(../imagens/center_sidenewsdivisor.png);
+	position:absolute;
+	left:0px;
+	top:230px;
+	width:21px;
+	height:9px;
+}
+
+#center #sidemenubar #center-newsseconddivisor {
+	background-color:#E6E6E6;
+	position:absolute;
+	left:21px;
+	top:230px;
+	width:221px;
+	height:9px;
+}
+
+#center #sidemenubar #center-sidethirdnews {
+	background-image: url(../imagens/center_sidebarnews.png);
+	position:absolute;
+	left:0px;
+	top:239px;
+	width:21px;
+	height:91px;
+}
+
+#center #sidemenubar #center-thridnews {
+	background-image: url(../imagens/center_news.png);
+	position:absolute;
+	left:21px;
+	top:239px;
+	width:221px;
+	height:91px;
+}
+
+#center #sidemenubar #center-morenews {
+	background-color:#E6E6E6;
+	position:absolute;
+	left:0px;
+	top:330px;
+	width:242px;
+	height:48px;
+}
+
+#center #center-background {
+	height:100%;
+	padding-top: 20px;
+	padding-right: 76px;
+	padding-left: 262px;
+	padding-bottom: 20px;
+}
+
+#center #center-sectionbar {
+	background-image: url(../imagens/section/home.png);
+	background-repeat: no-repeat;
+	background-position: 11px 20px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width:56px;
+	height: 100%;
+	min-height: 378px;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	position: relative;
+	width: 901px;
+	height: 62px;
+}
+
+#footer #footer-copyrightbar {
+	background-image: url(../imagens/footer_copyrightbar.png);
+	background-repeat: repeat-x;
+	background-color: #F77100;
+	top: 0px;
+	left: 0px;
+	width: 901px;
+	height:47px;
+}
+.copyright{
+	text-indent: 19px;
+	padding-top: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10pt;
+}

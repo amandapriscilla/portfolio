@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- 
+    Geolocalidade.html by Infinith Systems
+-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="SINAL, Transportes, Pontuais, Infinith, Systems" />
+<title>SINAL - Transportes Pontuais | Módulo de Geolocalização</title>
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery.form.js'></script>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript">
+        // Quando carregado a página
+        $(function($) {
+
+            // Quando enviado o formulário
+            $('#frmLogin').submit(function() {
+
+                // Limpando mensagem de erro
+                $('div.mensagem-erro').html('');
+
+                // Mostrando loader
+                $('div.loader').show();
+
+                // Enviando informações do formulário via AJAX
+                $(this).ajaxSubmit(function(resposta) {
+
+                    // Se não retornado nenhum erro
+                    if (!resposta)
+                        // Redirecionando para o painel
+                        window.location.href = 'painel_ms.php';
+                    else
+                    {
+                        // Encondendo loader
+                        $('div.loader').hide();
+
+                        // Exibimos a mensagem de erro
+                        $('div.mensagem-erro').html(resposta);
+                    }
+
+                });
+
+                // Retornando false para que o formulário não envie as informações da forma convencional
+                return false;
+
+            });
+        });
+        </script>
+</head>
+<body>
+<form id="frmLogin" action="ajax/logar.php" method="post">
+	<fieldset>
+		<legend>Geolocalizar</legend>
+		<div class="loader" style="display: none;"><img src="image/loader.gif" alt="Carregando" /></div>
+		<div class="mensagem-erro"></div>
+		<p>
+			<label for="login">Login</label>
+			<br />
+			<input type="text" id="login" name="login" />
+		</p>
+		<p>
+			<label for="senha">Senha</label>
+			<br />
+			<input type="password" id="senha" name="senha" />
+			<label for="status"><br />
+			</label>
+		</p>
+		<input type="submit" value="Entrar" />
+	</fieldset>
+</form>
+<p><a href="http://ystallonne.com/sinal/">Home</a></p>
+</body>
+</html>

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8b235abe-08a9-49fc-abfd-0728ae58e3dd" name="UCDMatriz" linkedPackageId="668bc763-5e62-4357-9869-78e6a77fbe23" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="89128ff2-13ce-4fda-9846-b948914383f2">
+      <profileInstance Id="5b11d47b-e523-4d70-b5e4-2b6be39fed39" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a33e9530-695a-4196-9fb7-52a1a9909edb">
+      <profileInstance Id="94108ed7-f5a7-42a1-a8c3-ba16c52c5161" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="605f8b20-26d4-4354-b2c5-6726e809def7" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f70eae4-4592-4554-bc57-400fcc5d71f0" />
+        <targetEnds>
+          <association Id="e361ef2b-88d0-4eda-acdb-81d15a56a147" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Manter funcionário" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="acc8562d-8189-4c4f-a215-7df656ede5f1" LastKnownName="Manter funcionário" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4be8265f-d083-460e-83dc-8e3d5a726df6" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7ff0ef4b-ee8e-4db4-823a-3b7e2166ac02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b26815e4-fa9d-4fc5-b1ae-dcd5c7e88e88" name="Manter funcionário" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b49f9af8-9026-46f7-a296-441af153a187" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="28326292-4974-4159-851a-7bac7be82e77" />
+          </association>
+          <association Id="cdf12332-98a6-4f91-ade0-bfe85931cfdc" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Manter filial" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ff428c04-d8c3-4709-8c67-bed9499362b2" LastKnownName="Manter filial" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="55fdef32-3f57-4221-9341-52ca40118982" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8beda643-8a74-4612-abdb-d9d6cb538b30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3376e0a8-f5e1-4ef0-a910-c13650827415" name="Manter filial" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="485dbf0d-a03f-42a3-acaa-5187bc8e9ad9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dadd9fd3-c03e-4a02-8289-e0265d6796bf" />
+          </association>
+          <association Id="03ce7860-c46b-41ed-ae4f-a83343a0f668" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Manter instituição" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="10f30936-12a1-406c-9c11-6395f8570dc8" LastKnownName="Manter instituição" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98aa8e72-b33e-4084-acd9-a356c76da8eb" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bc2df79a-19ef-4e62-a70e-d2e38d9eba04" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d368c9b8-47bf-45ea-9a04-a25c6e3f4338" name="Manter instituição" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ab8279b4-ceee-434d-8bf6-a5018ea7de97" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="49318bee-f0a9-42ba-b52f-468bb121eef3" />
+          </association>
+          <association Id="016f8543-87b5-4f1a-aa41-f6108c525677" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Gerenciar SAC" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b380e110-8fd6-4cc8-a4f9-78d70d68c7cb" LastKnownName="Gerenciar SAC" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bd05c318-25c0-4b9d-95bc-1da6837b321b" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1309ac0c-d621-4f5e-87c3-de66d308363f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="255083ba-98cb-424d-9594-1143e47ada0d" name="Gerenciar SAC" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="291aab16-7262-4252-82e1-215a951869bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="31dcc43c-3ebf-403f-9365-6949b5d1af2d" />
+          </association>
+          <association Id="a6605239-5b46-40c0-a014-b3f498009f1d" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Exibir relatórios" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="94759f58-75f1-4a72-b5f5-c823526a5781" LastKnownName="Exibir relatórios" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ebf1c2f4-713e-4403-9171-9a352d1f5e9e" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c085d95e-17e5-4aac-a2cb-b2a24964bb12" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62d653bb-2947-4861-b2d1-025cbefc5e4e" name="Exibir relatórios" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="375fb42d-4e4c-4481-a453-86dcb0f00eef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f99db197-78a9-4a18-af65-02dd684f9237" />
+          </association>
+          <association Id="55bb5619-72cb-4ed7-99d7-5bb71a9d04a7" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Liberar Ordem de Descarte" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7cc1a626-aade-43cb-ab14-3fdc9d256658" LastKnownName="Liberar Ordem de Descarte" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b2f81a72-cfe6-4a12-8893-d71c279d40f7" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1babe0f9-f6a0-40e8-88c4-1851fe599399" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9598ab49-f133-47b0-9f00-6dbd69c1cda4" name="Liberar Ordem de Descarte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="809b1323-95ba-4197-a51d-544e7bf6d442" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6704b0fc-7298-437e-a18c-7fea2171a9fb" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="eb37c8a5-fc50-482b-94c3-e81bd128118c" name="Contator" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b41c9f01-7287-4b49-8ecb-425414765771" />
+        <targetEnds>
+          <association Id="09823dba-e6cb-4d7d-bdac-36a4ba9b000d" isDerived="false" sourceEndRoleName="Contator" targetEndRoleName="Manter produto" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae1edb59-39b9-46e3-9510-a885fbfe54cb" LastKnownName="Manter produto" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4a14fe8-e052-4a31-82ee-9d89375a350d" name="Contator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0add17f3-2b2c-4df7-aec4-3dd43f275179" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7605a222-ec11-4ceb-a5ee-61a9cc918d54" name="Manter produto" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2b5b82b6-638d-476c-bdd6-eef5cc018c6a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9eb98c8a-938f-4875-978e-9ef32c93a0cb" />
+          </association>
+          <association Id="f59d25b4-812f-46a0-890c-be4cfd0c71fb" isDerived="false" sourceEndRoleName="Contator" targetEndRoleName="Manter tipo" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cd01cf5f-f007-4941-852b-996e678e626f" LastKnownName="Manter tipo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="349bb9e1-b4e7-4a1c-aa6b-c067b6893831" name="Contator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fdd9f202-77be-4c8a-812f-e3827963e4f4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cba44d71-7418-4f70-97c2-6b35dbcf9c23" name="Manter tipo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="25c71a93-1420-4eef-9a74-c162c7b1ca64" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="718df956-3d90-49bd-8793-531d7bda2f62" />
+          </association>
+          <association Id="1bb8a89a-a578-42b2-9ee7-717e8da0090e" isDerived="false" sourceEndRoleName="Contator" targetEndRoleName="Manter especificação" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="74788dc3-f9d9-4ead-9b5c-57410793ca03" LastKnownName="Manter especificação" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a2714fc-7ab8-4d06-affd-c9f510634ccc" name="Contator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="39aaae53-a97d-404f-9234-474fb225e738" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fb600ccc-ce2f-4ee5-a451-0c198d0b0c8b" name="Manter especificação" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d09accb1-823c-43d1-89fb-6af66d7406da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="676fc2bc-b9cc-4672-89a1-6d7253b9bf08" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" name="SIDAF.Matriz" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="84f4abbe-09be-4ce6-ac4c-541c478b04b3" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="acc8562d-8189-4c4f-a215-7df656ede5f1" name="Manter funcionário" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7f32cec1-d0e4-4e6b-b32b-0a761a1b5ac1" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ff428c04-d8c3-4709-8c67-bed9499362b2" name="Manter filial" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85459969-726a-473c-baef-929220de204a" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="10f30936-12a1-406c-9c11-6395f8570dc8" name="Manter instituição" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a12ac5aa-92fb-4d78-878f-e2f4ba7bf95a" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b380e110-8fd6-4cc8-a4f9-78d70d68c7cb" name="Gerenciar SAC" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cb40b804-60ac-409c-9383-32adc088adc7" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ae1edb59-39b9-46e3-9510-a885fbfe54cb" name="Manter produto" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="13fa0101-7352-4979-9ee1-d7e64b6a50cd" />
+        <additions>
+          <include Id="7e19c46f-564d-4deb-80b2-ca77b42372f2">
+            <useCaseMoniker Id="74788dc3-f9d9-4ead-9b5c-57410793ca03" LastKnownName="Manter especificação" />
+            <elementDefinition Id="322f21c6-05c0-4dd3-b957-f69a7a66bfd0" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="cd01cf5f-f007-4941-852b-996e678e626f" name="Manter tipo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cb64e811-b018-405a-912a-d12a5f3e0b13" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="94759f58-75f1-4a72-b5f5-c823526a5781" name="Exibir relatórios" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ac984493-6965-47c9-8b9f-4a22e16c455a" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7cc1a626-aade-43cb-ab14-3fdc9d256658" name="Liberar Ordem de Descarte" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="22c37833-1dee-4933-ad71-27706f39a4cf" />
+        <additions>
+          <include Id="a41130bd-7bb5-4a2f-918c-a6fe74b92e55">
+            <useCaseMoniker Id="10f30936-12a1-406c-9c11-6395f8570dc8" LastKnownName="Manter instituição" />
+            <elementDefinition Id="6f9c1a62-ce76-4f7d-89ce-a3f74696358c" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="74788dc3-f9d9-4ead-9b5c-57410793ca03" name="Manter especificação" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5d2455b8-ea03-452f-9ea7-54eea09520ee" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="66f09ed0-1ab0-4a83-9147-8800f90f9d09" name="Manter fornecedor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8ae53e70-d272-4709-a090-012f40ac721c" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d96d162d-c9e1-495c-9a69-9d7bdf4c2d64" name="Realizar compra" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8b1e2816-beb3-455f-a313-32cbeaf7b474" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5043c58a-cc52-4bb6-bcb9-89b2690886f7" name="Gerenciar pedidos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4181e5d2-60e8-422e-82bc-2d6329b6d38f" />
+        <subjects>
+          <subsystemMoniker Id="951d104a-b2ab-4c0b-88dd-623fca74cf2b" LastKnownName="SIDAF.Matriz" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="668bc763-5e62-4357-9869-78e6a77fbe23" name="SIDAF.Arquitetura">
+    <elementDefinition Id="cb38a0a7-bd4b-47e7-9502-3d0d4815c9fd" />
+  </package>
+</useCaseModelRoot>
